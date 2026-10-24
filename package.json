@@ -1,0 +1,28 @@
+{
+    "name": "streetwise-ai",
+    "version": "1.0.0",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "concurrently -k \"node server/index.js\" \"vite --host 0.0.0.0\"",
+        "client": "vite --host 0.0.0.0",
+        "server": "node server/index.js",
+        "build": "vite build"
+    },
+    "dependencies": {
+        "@vitejs/plugin-react": "latest",
+        "cors": "latest",
+        "dotenv": "latest",
+        "express": "latest",
+        "lucide-react": "latest",
+        "multer": "latest",
+        "openai": "latest",
+        "react": "latest",
+        "react-dom": "latest",
+        "sharp": "latest",
+        "vite": "latest"
+    },
+    "devDependencies": {
+        "concurrently": "^10.0.6"
+    }
+}
